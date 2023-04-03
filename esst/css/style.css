@@ -1,0 +1,1008 @@
+:root {
+    --black-900: #c4cfde;
+    --black-800: #878e99;
+    --black-700: #32363b;
+    --back-9002: #060606;
+    --body: #212428;
+    --red-800: #ff014f;
+    --popu: 'poppins';
+    --montfont: 'Montserrat';
+    --shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+
+body {
+    background-color: var(--body);
+    overflow-x: hidden;
+}
+
+/*  <!-- img and home and about  and icon [section 1] --> */
+.xs-1,
+.xs-2,
+.xs-3,
+.xs-4,
+.xs-5,
+.xs-6,
+.xs-7,
+.xs-8,
+.xs-9,
+.xs-10,
+.xs-11,
+.xs-12,
+.sm-1,
+.sm-2,
+.sm-3,
+.sm-4,
+.sm-5,
+.sm-6,
+.sm-7,
+.sm-8,
+.sm-9,
+.sm-10,
+.sm-11,
+.sm-12,
+.md-1,
+.md-2,
+.md-3,
+.md-4,
+.md-5,
+.md-6,
+.md-7,
+.md-8,
+.md-9,
+.md-10,
+.md-11,
+.md-12,
+.lg-1,
+.lg-2,
+.lg-3,
+.lg-4,
+.lg-5,
+.lg-6,
+.lg-7,
+.lg-8,
+.lg-9,
+.lg-10,
+.lg-11,
+.lg-12,
+.xl-1,
+.xl-2,
+.xl-3,
+.xl-4,
+.xl-5,
+.xl-6,
+.xl-7,
+.xl-8,
+.xl-9,
+.xl-10,
+.xl-11,
+.xl-12 {
+    padding: 12px;
+}
+
+.toggle {
+    color: gold;
+    font-size: 30px;
+    transition: all 1.2s;
+}
+
+.toggle i:hover {
+
+    color: var(--black-900);
+}
+
+.main .header img {
+    border-radius: 50%;
+    border: 5px solid var(--black-800);
+    height: 190px;
+}
+
+.main {
+    width: 100%;
+}
+
+.header {
+    height: 100vh;
+    box-shadow: var(--shadow);
+    padding: 30px;
+    overflow-y: scroll;
+    position: fixed;
+}
+
+/*scrool bar*/
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: var(--black-900);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--red-800);
+    height: 30px;
+}
+
+/* home,about section start  */
+.main ul li a {
+    font-weight: 800px;
+    color: #c4cfde;
+    font-family: var(--popu);
+    text-transform: uppercase;
+}
+
+.main ul li {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.main ul li i {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.main ul li a:hover {
+    color: var(--red-800);
+}
+
+.main ul li:first-child a {
+    color: var(--red-800);
+}
+
+.main ul li a:hover {
+    color: var(--red-800);
+    transition: all 0.5s;
+}
+
+.main .btn {
+    width: 100%;
+    height: 45px;
+    background-color: var(--body-800);
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+    margin: 0 10px 10px 10px;
+    border-bottom: var(--black-700);
+    align-items: center;
+}
+
+.main .btn i {
+    color: var(--black-900);
+    font-size: 20px;
+    transform: translateY(-15%);
+}
+
+.main ul a span {
+    color: var(--black-900);
+    background-color: var(--red-800);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: var(--black-900);
+}
+
+.main .titel {
+    letter-spacing: 2px;
+    color: var(--black-800);
+    font-family: var(--popu);
+    font-size: 16px;
+    line-height: 50px;
+}
+
+/* home about section  end */
+/* bottom to top button start */
+.back-top i {
+    color: var(--red-800);
+    font-size: 20px;
+}
+
+/* bottom to top button end */
+/* socilal icon start */
+.solial i {
+    color: var(--black-900)
+}
+
+.social a {
+    font-size: 20px;
+    color: var(--black-900);
+    background-color: var(--black-600);
+    padding: 10px 15px;
+    border-radius: 10%;
+    text-align: center;
+    line-height: 25px;
+    box-shadow: var(--shadow);
+    transition: all 0.8s;
+    margin-top: 20px;
+}
+
+.social a:hover {
+    transform: translatey(-15%);
+    color: var(--red-800);
+    box-shadow: var(--shadow);
+    background: linear-gradient(to right bottom, #212428, #16181c);
+}
+
+/* my img and my introduction  w-80 started  [section-2 started]*/
+.main .w-80 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-38%);
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateY(-50%, -50%);
+}
+
+.banner .photo img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border: 5px solid var(--red-800);
+    box-shadow: var(--shadow);
+}
+
+.banner .photo h1 {
+    font-size: 48px;
+    font-family: var(--montfont);
+    color: var(--black-900);
+    text-align: center;
+}
+
+.banner .photo p {
+    font-size: 30px;
+    color: var(--black-900);
+    font-family: var(--popu);
+}
+
+.banner .photo span {
+    color: var(--red-800);
+}
+
+.banner .c-btn {
+    width: 200px;
+    height: 50px;
+    background-color: var(--body);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 0 30px;
+    text-align: center;
+    transition: all 1.2s;
+    margin-left: 50px;
+}
+
+.banner .c-btn a {
+    color: var(--red-800);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: var(--popu);
+}
+
+/* section-1 &  section-11 & section -8*/
+.banner .c-btn:hover,
+.contact-form form .btn:hover,
+.btc2 .order:hover {
+    transform: translateY(-15%);
+}
+
+/* line border */
+.diyader {
+    border: 1px dotted var(--black-700);
+}
+
+/* <!-- 3 box and hover [section -3 started] --> */
+.features {
+    width: 100%;
+}
+
+.features span {
+    width: 100%;
+    font-size: 14px;
+    color: var(--red-800);
+    margin: 20px 0;
+    font-family: var(--popu);
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+}
+
+.features h1 {
+    font-size: 48px;
+    color: var(--black-900);
+    margin: 20px 0;
+    font-family: var(--montfont);
+    font-weight: 900;
+    text-align: center;
+}
+
+.features .xl-4 {
+
+    background-color: var(--body);
+    box-shadow: var(--shadow);
+    border-radius: 20px;
+    padding: 30px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    transition: all 0.8s;
+}
+
+.features .xl-4 i {
+    font-size: 50px;
+    color: var(--red-800);
+    margin: 20px 0;
+}
+
+/* section-3(2)*/
+.nod {
+    padding: 0 20px;
+}
+
+.features .xl-4 h2,
+.features .xl-4 p {
+    font-size: 20px;
+    margin: 10px 0;
+    display: block;
+    color: var(--black-800);
+    font-family: var(--popu);
+}
+
+.features .arrow i {
+    font-size: 50px;
+}
+
+/* section-3 & section-9 */
+.features .arrow,
+.blog .w-33 .con-blog p i {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.features .xl-4:hover .arrow,
+.blog .w-33 :hover p i {
+    opacity: 1;
+    font-size: 30px;
+    visibility: visible;
+}
+
+.features .xl-4:hover {
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    padding: 35px;
+}
+
+/* Pricing [section-4 and ues to section-7 & 9,11 started] */
+.pro {
+    padding: 50px;
+}
+
+.pro h4 {
+    font-size: 14px;
+    color: var(--red-800);
+    text-align: center;
+    margin-top: 20px;
+    font-family: var(--montfont);
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.pro h1 {
+    font-size: 60px;
+    color: var(--black-900);
+    text-align: center;
+    margin-top: 20px;
+    font-family: var(--popu);
+    margin-top: 15px;
+}
+
+/* (section-5 & section-8)[section 5 started]*/
+.dec-7 .minibox .w-25,
+.clients .minibox .w-32 {
+    border-radius: 10px;
+    transition: all 1.2s;
+    /* margin: 10px 0 0; */
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.dec-7 .minibox a,
+.clients .minibox a {
+    color: var(--black-900);
+    font-size: 16px;
+    font-family: var(--popu);
+    letter-spacing: 2px;
+    transition: all 1s;
+    font-weight: 500;
+}
+
+/* section-5(2) & section-8(4) */
+.dec-7 .minibox .w-25:first-child,
+.clients.minibox .w-32:first-child,
+.tab-content,
+.dec-7 .minibox .w-25:hover,
+.clients .minibox .w-32:hover,
+.clients-box ul li:hover:hover {
+    box-shadow: var(--shadow);
+}
+
+/* section-5(2) & section-8(2) */
+.dec-7 .minibox .w-25:hover a,
+.clients .minibox .w-32:hover a,
+.dec-7 .minibox .w-25:first-child a,
+.clients .minibox .w-32:first-child a {
+    color: var(--red-800);
+}
+
+/* section-5 & section-8 */
+.dec-7 .minibox .w-25:first-child,
+.clients .minibox .w-32:first-child {
+    background-color: #21242895;
+}
+
+/* big-box content (w-50%) 2 class ,[section-6 started] */
+
+/* education */
+
+.education span {
+    color: var(--red-800);
+    font-family: var(--popu);
+    font-size: 14px;
+}
+
+.education h2 {
+    font-size: 36px;
+    color: var(--black-800);
+    font-family: var(--montfont);
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.education-content {
+    border-left: 5px solid var(--back-9002);
+    padding-left: 30px;
+    margin-left: 15px;
+}
+
+.single-list title {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.single-list {
+    padding: 45px 20px;
+    background: linear-gradient(to right bottom, #16181c, #212428);
+    box-shadow: var(--shadow);
+    margin: 50px 30px 0 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.single-list::before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 5px solid var(--back-9002);
+    border-radius: 50%;
+    left: -42.5px;
+}
+
+.single-list::after {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: var(--black-700);
+    border-radius: 50%;
+    left: -38.2px;
+    top: 49px;
+    transition: all 1s;
+
+}
+
+.single-list:hover::after {
+    background-color: var(--red-800);
+}
+
+.single-list:hover {
+    background: linear-gradient(to right bottom, #212428, #16181c);
+}
+
+.single-list .title::after {
+    position: absolute;
+    content: '';
+    width: 28px;
+    height: 5px;
+    background-color: var(--back-9002);
+    left: -27px;
+    top: 52px;
+}
+
+.single-list .title .main-title h3,
+.pricing .title .main-title h3 {
+    font-size: 23px;
+    font-family: var(--popu);
+    color: var(--black-900);
+    margin-bottom: 10px;
+}
+
+.single-list .title .main-title span,
+.pricing .title .main-title span {
+    font-size: 14px;
+    font-family: var(--popu);
+    color: var(--black-900);
+}
+
+.single-list .title .sub-title span,
+.pricing .title .sub-title span {
+    font-size: 14px;
+    color: var(--red-800);
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    font-family: var(--popu);
+    box-shadow: var(--shadoww);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.single-list .line {
+    border-color: var(--black-900);
+}
+
+.education-content .single-list p,
+.pricing .title p {
+    font-size: 18px;
+    font-family: var(--popu);
+    color: var(--black-800);
+    margin-top: 20px;
+}
+
+.big-box .list {
+    padding: 0px 35px;
+    border-left: 5px solid var(--back-9002);
+    position: relative;
+    margin-bottom: 100px;
+}
+
+/* section-6 & section-8 */
+.clients-box ul li:first-child,
+.minibox .w-32:first-child {
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.clients-box ul li:first-child a {
+    color: var(--red-800);
+}
+
+.clients-box ul li {
+    padding: 20px;
+    margin: 0 0;
+}
+
+.clients-box ul li a {
+    font-family: var(--popu);
+    color: var(--black-900);
+}
+
+.clients-box ul li:hover a {
+    text-align: center;
+    color: var(--red-800);
+    transition: all 1s;
+}
+
+.clinent-box .content {
+    box-shadow: var(--shadow);
+    padding: 10px;
+    margin: 10px 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.clinent-box .content a {
+    color: var(--black-900);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.clinent-box .content h2 {
+    color: var(--black-800);
+    padding: 10px 0;
+}
+
+.btc2 span {
+    font-weight: 600;
+    font-family: var(--montfont);
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: var(--red-800);
+    background-color: var(--black-600);
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+/* button */
+.list .liner .btc3 span {
+    font-weight: 600;
+    font-family: var(--popu);
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    color: var(--red-800);
+    background-color: var(--black-700);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+/* <!-- Clients ,[section-7 started] --> */
+.clients,
+.clients .w-50 {
+    padding: 50px;
+    top: 100px;
+    position: sticky;
+    height: 100%;
+}
+
+.clients .titel-text h2 {
+    font-size: 14px;
+    font-family: var(--montfont);
+    color: var(--red-800);
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.clients .titel-text h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: var(--black-900);
+    font-family: var(--montfont);
+    margin: 15px 0 0 0;
+}
+
+.clients-box .xl-4,
+.md-4,
+.lg-4 {
+    /* position: sticky; */
+    height: 100%;
+    top: 110px;
+}
+
+.clients-box .menu {
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}
+
+/* <!-- Pricing [section 8] -->  */
+.list .liner::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 5px solid var(--black-700);
+    left: -12px;
+    margin-top: -180px;
+}
+
+.list .liner::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--body);
+    left: -10px;
+    margin-top: 90px;
+}
+
+.list .liner:hover::before {
+    background-color: var(--red-800);
+}
+
+.liner .titel h3 {
+    font-size: 24px;
+    font-family: var(--montfont);
+    color: var(--black-900);
+    display: inline-block;
+}
+
+.liner .titel h5 {
+    font-size: 16px;
+    color: var(--black-800);
+    font-family: var(--montfont);
+}
+
+.list .liner {
+    background-color: var(--body);
+    box-shadow: var(--shadow);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+/* section-6 & section-8 */
+.list .liner:hover,
+.clinent-box .content:hover {
+    background: linear-gradient(to right bottom, #212428, #16181c)
+}
+
+.list .liner .heding {
+    width: 458px;
+}
+
+.list .liner.heding .title {
+    position: relative;
+}
+
+.list .liner .titel::after {
+    position: absolute;
+    content: "";
+    width: 9%;
+    height: 5px;
+    right: 90.2%;
+    margin-top: -px;
+    transform: translateY(-7px);
+    background: var(--back-9002);
+    z-index: 0;
+}
+
+/* section-6 & section-8 */
+.list .liner .decription p,
+.tab-content .liner .decription p {
+    font-size: 20px;
+    font-family: var(--popu);
+    padding: 20px;
+    color: var(--black-800);
+}
+
+.tab-content .liner .titel h3 {
+    line-height: 70px;
+}
+
+/* section-8  & section-11 */
+.btc2 .order,
+.contact-form form .btn {
+    width: 100%;
+    font-size: 20px;
+    padding: 20px 40px;
+    margin: 0;
+    box-shadow: var(--shadow);
+    transition: all 1.2s;
+    color: var(--red-800);
+    font-family: var(--popu);
+}
+
+.btc2 .order:hover .contact-form form .btn:hover {
+    transform: translateY(-15%);
+    background: linear-gradient(145deg, #1e2024, #23272b);
+}
+
+/* section-8(2) */
+.pricing ul li i,
+.pricing ul li h4,
+.tab-content .icon h5 {
+    color: var(--black-800);
+    font-size: 18px;
+}
+
+.tab-content .icon h5 {
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+/* 3-box hover [section-10 started] */
+.blog .xl-4 .blog-con {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--black-7000);
+    box-shadow: var(--shadow);
+}
+
+/* section-10 & section-11 */
+.blog .sm-12,
+.Contact .xl-8 {
+    padding: 0 20px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    margin-bottom: 50px;
+}
+
+.blog .blog-img {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.blog .blog-img img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    object-fit: cover;
+    display: block;
+    transition: all 0.5s;
+}
+
+.blog .blog-con:hover img {
+    transform: scale(1.1);
+}
+
+.blog .con-blog {
+    padding-top: 15px;
+}
+
+.blog h6,
+.blog span {
+    font-size: 16px;
+    color: var(--red-800);
+    font-family: var(--popu);
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.blog span {
+    color: var(--black-900);
+}
+
+.blog .con-blog p {
+    font-size: 23px;
+    color: var(--black-900);
+    font-weight: 800;
+    font-family: var(--montfont);
+    line-height: 40px;
+    padding: 20px 0;
+    transition: all 1s;
+}
+
+/* section-10 & section-11 */
+.blog .blog-con:hover,
+.Contact .contact-form,
+.contact-form form .btn {
+    background: linear-gradient(to right bottom, #212428, #16181c);
+}
+
+.blog .con-blog p:hover,
+.Contact .con-blog h3 span:hover {
+    color: var(--red-800);
+
+}
+
+/* Contact and from [section-11]*/
+.Contact .xl-4 {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: var(--black-7000);
+    box-shadow: var(--shadow);
+    margin-bottom: auto;
+}
+
+.Contact .con-blog h4 {
+    font-size: 29px;
+    font-family: var(--montfont);
+    color: var(--black-900);
+    margin: 20px 0;
+}
+
+.Contact .con-blog h3 {
+    font-size: 16px;
+    font-family: var(--popu);
+    color: var(--black-800);
+    margin-top: 10px;
+}
+
+.Contact .con-blog h3 span {
+    color: var(--black-900);
+    transition: all 1.5s;
+    position: relative;
+}
+
+.Contact .con-blog h3 span::after {
+    position: absolute;
+    content: '';
+    border: 0.5px solid var(--red-800);
+    opacity: 0;
+    transition: all 1.8s;
+    top: 90%;
+    left: -15%;
+    display: block;
+}
+
+.Contact .con-blog h3 span:hover::after {
+    opacity: 1;
+    width: 100%;
+    transform: translateX(15%);
+    color: var(--red-800);
+}
+
+.Contact .con-blog p,
+.Contact .con-blog span {
+    font-size: 16px;
+    margin-top: 10px;
+    color: var(--black-800);
+    line-height: 30px;
+    font-family: var(--popu);
+}
+
+.Contact .con-blog {
+    padding: 15px 30px;
+}
+
+.Contact .xl-8 .contact-form {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: var(--black-7000);
+    box-shadow: var(--shadow);
+}
+
+.Contact .contact-form form label {
+    font-family: var(--montfont);
+    font-size: 15px;
+    color: var(--black-900);
+    margin: 13px 0;
+    display: flex;
+}
+
+.Contact .contact-form form input {
+    width: 100%;
+    height: 60px;
+    background-color: #191b1e;
+    box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    ;
+    border: 0;
+    padding: 0 15px;
+    border-radius: 5px;
+    transition: all 1s;
+    font-size: 20px;
+    color: var(--black-900);
+}
+
+.Contact .contact-form form input:hover {
+    border: 1px solid var(--red-800);
+}
+
+.form-name,
+.contact-form form {
+    padding: 0 15px;
+}
+
+.form-line .form-name {
+    width: 50%;
+}
+
+.sender {
+    height: 180px !important;
+}
+
+.contact-form form .btn {
+    margin: 30px 0;
+    height: 75px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    color: var(--black-900);
+}
+
+/* footer [section-12] */
+.footer-2 {
+    padding: 30px 60px;
+    text-align: center;
+}
+
+footer p {
+    color: var(--black-900);
+    font-size: 16px;
+    font-family: var(--montfont);
+}
